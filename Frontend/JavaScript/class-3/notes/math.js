@@ -56,7 +56,7 @@ if(-100){
 //Given total_bill,discount_start_price if you satisfy the condition then print discount
 //Available otherwise print no discount
 
-let total_bill=1000;
+/*let total_bill=1000;
 let discount_start_price=500;
 if (total_bill>discount_start_price){
     console.log("Discount available");
@@ -70,16 +70,14 @@ else{
 //Task 2
 let age=18;
 
-if (age>=18){
-    console.log("Adult");
-
-}
-else if(age<=18){
-    console.log("Minor");
-}
-else if(age>=60){
+if (age>=60){
     console.log("Senior Citizen");
-
+}
+else if(age>=18){
+    console.log("Adult");
+}
+else{
+    console.log("Minor");
 }
 
 
@@ -94,4 +92,98 @@ if(age1 >=22 && gender=="male"){
 }
 else{
     console.log("You can't marry");
+}
+
+//Task 4
+//Print all the vowels(a,e,i,o,u)
+
+let char="e";
+switch(char){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        console.log("Vowel");
+        break;//to break the flow
+    default:
+        console.log("Consonant");
+        break;
+}*/
+
+
+//Task 5
+//Sunday,Monday,Tuesday,Wednesday,Thursday, Friday, Saturday(Week)& Month
+
+let day=1;//Week
+
+switch(day){
+    case 0:
+        console.log("Sunday");
+        break;
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+
+    console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid day");
+        break;
+}
+
+let month=3;//month
+switch(month) {
+    case 0:
+        console.log("January");
+        break;
+    case 1:
+        console.log("February");
+        break;
+    case 2:
+        console.log("March");
+        break;
+    case 3:
+        console.log("April");
+        break;
+    case 4:
+        console.log("May");
+        break;
+    case 5:
+        console.log("June");
+        break;
+    case 6:
+        console.log("July");
+        break;
+    case 7:
+        console.log("August");
+        break;
+    case 8:
+        console.log("September");
+        break;
+    case 9:
+        console.log("October");
+        break;
+    case 10:
+        console.log("November");
+        break;
+    case 11:
+        console.log("December");
+        break;
+    default:
+        console.log("Invalid month");
+        break;
 }
