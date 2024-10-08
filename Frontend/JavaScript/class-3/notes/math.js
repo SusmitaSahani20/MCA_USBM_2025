@@ -67,3 +67,31 @@ else{
 }
 
 
+//Task 2
+let age=18;
+
+if (age>=18){
+    console.log("Adult");
+
+}
+else if(age<=18){
+    console.log("Minor");
+}
+else if(age>=60){
+    console.log("Senior Citizen");
+
+}
+
+
+//Task3 
+//check if male and then check (22+) then he can able to marry
+
+let gender="male";
+let age1=20;
+
+if(age1 >=22 && gender=="male"){
+    console.log("You can marry");
+}
+else{
+    console.log("You can't marry");
+}
