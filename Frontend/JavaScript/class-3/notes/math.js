@@ -56,7 +56,7 @@ if(-100){
 //Given total_bill,discount_start_price if you satisfy the condition then print discount
 //Available otherwise print no discount
 
-/*let total_bill=1000;
+let total_bill=1000;
 let discount_start_price=500;
 if (total_bill>discount_start_price){
     console.log("Discount available");
@@ -109,7 +109,7 @@ switch(char){
     default:
         console.log("Consonant");
         break;
-}*/
+
 
 
 //Task 5
